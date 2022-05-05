@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T09:42:12.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.5.0" etag="LzoO2SS8fo0DwfRYiNC-" type="github"><diagram id="8hft686TA0o0Mh93gZpZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-05T09:56:01.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IBUsnmrRKr7Nqc3meAtd" version="17.5.0" type="github">
+  <diagram id="8hft686TA0o0Mh93gZpZ" name="Page-1">
+    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="294" y="270" width="656" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="180" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-2" value="Configuration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-3" value="Global list of zones&lt;br&gt;with possible cluster level overwrites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-4" value="Gitops syncer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-6" value="receive list of zones" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-3" target="WjhpekEPJEZtsvO9ULlL-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-4" target="WjhpekEPJEZtsvO9ULlL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-8" value="persist list of zones" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WjhpekEPJEZtsvO9ULlL-7">
+          <mxGeometry x="-0.2533" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-12" value="starts new VM&amp;nbsp;&lt;br&gt;with random zone&amp;nbsp;&lt;br&gt;from list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-9" target="WjhpekEPJEZtsvO9ULlL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-9" value="Reconciler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-10" value="gather possible list of zones" style="endArrow=classic;html=1;rounded=0;exitX=0.375;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-9" target="WjhpekEPJEZtsvO9ULlL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-11" value="GCP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-13" value="Pools table stores list of zones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="555" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-16" value="Garbage Collector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-17" value="gather all possible zones" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-16" target="WjhpekEPJEZtsvO9ULlL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
