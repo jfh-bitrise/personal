@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T09:56:01.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IBUsnmrRKr7Nqc3meAtd" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T07:33:36.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="XQ0n_pwOunsEO_bd9E2Z" version="17.5.0" type="github">
   <diagram id="8hft686TA0o0Mh93gZpZ" name="Page-1">
-    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="748" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,8 +39,14 @@
             <mxPoint x="-1" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WjhpekEPJEZtsvO9ULlL-12" value="starts new VM&amp;nbsp;&lt;br&gt;with random zone&amp;nbsp;&lt;br&gt;from list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-9" target="WjhpekEPJEZtsvO9ULlL-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-12" value="starts new VM&amp;nbsp;&lt;br&gt;with random zone&amp;nbsp;&lt;br&gt;from list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-9" target="WjhpekEPJEZtsvO9ULlL-11">
+          <mxGeometry x="-0.0769" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="310" />
+              <mxPoint x="750" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WjhpekEPJEZtsvO9ULlL-9" value="Reconciler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
@@ -52,7 +58,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WjhpekEPJEZtsvO9ULlL-11" value="GCP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="810" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WjhpekEPJEZtsvO9ULlL-13" value="Pools table stores list of zones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="555" width="70" height="30" as="geometry" />
@@ -64,6 +70,17 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="520" as="sourcePoint" />
             <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-18" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjhpekEPJEZtsvO9ULlL-9" target="WjhpekEPJEZtsvO9ULlL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="360" as="sourcePoint" />
+            <mxPoint x="800" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WjhpekEPJEZtsvO9ULlL-19" value="stop an already &lt;br&gt;started VM by name,&lt;br&gt;zone and project" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WjhpekEPJEZtsvO9ULlL-18">
+          <mxGeometry x="-0.1389" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
