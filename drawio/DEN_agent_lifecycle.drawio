@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T09:43:19.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" version="18.1.2" etag="FYWtkmOvWzezpINeR-mi" type="github"><diagram id="rNVQ4uQO1f6QHfDMUlD0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-02T10:01:09.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Wfpf0L51yQiK69qqKQPw" version="18.1.2" type="github">
+  <diagram id="rNVQ4uQO1f6QHfDMUlD0" name="Page-1">
+    <mxGraphModel dx="1234" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-22" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#E1D5E7;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="740" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="480" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-3" value="&lt;font style=&quot;&quot;&gt;2. creates new &lt;br&gt;Nomad job &lt;br&gt;with a startup script&lt;br&gt;and the agent intro secret&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;labelBackgroundColor=#E1D5E7;" edge="1" parent="1" source="xA3U0Y8A-cXi2BtY0ln5-1" target="xA3U0Y8A-cXi2BtY0ln5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-8" value="&lt;span style=&quot;&quot;&gt;1. registers new &lt;br&gt;agent intro secret&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#E1D5E7;fontColor=#000000;" edge="1" parent="1" source="xA3U0Y8A-cXi2BtY0ln5-1" target="xA3U0Y8A-cXi2BtY0ln5-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-1" value="Preboot reconciler&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#808080&quot;&gt;(or DEN VM Autoscaler)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-6" value="MacOS Anka VM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-7" value="DEN DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-12" value="DEN Agent" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-13" value="3. starts&lt;br&gt;DEN Agent&amp;nbsp;&lt;br&gt;based on the&amp;nbsp;&lt;br&gt;startup script" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#F5F5F5;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xA3U0Y8A-cXi2BtY0ln5-2" target="xA3U0Y8A-cXi2BtY0ln5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="sourcePoint" />
+            <mxPoint x="590" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="xA3U0Y8A-cXi2BtY0ln5-14" target="xA3U0Y8A-cXi2BtY0ln5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-17" value="5. creates new agent id &lt;br&gt;and removes &lt;br&gt;the agent intro secret" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=#E1D5E7;" vertex="1" connectable="0" parent="xA3U0Y8A-cXi2BtY0ln5-16">
+          <mxGeometry x="-0.2182" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-14" value="DEN Server" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-15" value="4. registers itself &lt;br&gt;to DEN Server &lt;br&gt;with the agent intro secret" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xA3U0Y8A-cXi2BtY0ln5-12" target="xA3U0Y8A-cXi2BtY0ln5-14">
+          <mxGeometry x="-0.2412" y="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="300" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-18" value="6. fetch for new tasks" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xA3U0Y8A-cXi2BtY0ln5-12" target="xA3U0Y8A-cXi2BtY0ln5-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-20" value="Bitrise Internal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xA3U0Y8A-cXi2BtY0ln5-24" value="DEN Agent registration cycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
