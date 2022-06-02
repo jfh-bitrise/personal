@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T07:42:48.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" version="18.1.2" etag="WG87ns00Si3volNXVWjX" type="github"><diagram id="48bwg883NL2LRYjOMaRp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-02T15:34:56.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="mpg2pzbX3lFstSxz1WhT" version="18.1.2" type="github">
+  <diagram id="48bwg883NL2LRYjOMaRp" name="Page-1">
+    <mxGraphModel dx="2066" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="80" width="270" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SwuSCAgwxQsUDoLRiEwz-6">
+          <mxGeometry width="270" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-3" value="DEN Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SwuSCAgwxQsUDoLRiEwz-6">
+          <mxGeometry x="10" y="10" width="33.333333333333336" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-5" value="DEN DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="SwuSCAgwxQsUDoLRiEwz-6">
+          <mxGeometry x="10" y="120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="600" y="80" width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-8" value="" style="group" vertex="1" connectable="0" parent="SwuSCAgwxQsUDoLRiEwz-7">
+          <mxGeometry width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SwuSCAgwxQsUDoLRiEwz-8">
+          <mxGeometry width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-4" value="DEN Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SwuSCAgwxQsUDoLRiEwz-8">
+          <mxGeometry x="10" y="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SwuSCAgwxQsUDoLRiEwz-8">
+          <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-10" value="fetch for next task" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=-0.006;exitY=0.173;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SwuSCAgwxQsUDoLRiEwz-1" target="SwuSCAgwxQsUDoLRiEwz-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwuSCAgwxQsUDoLRiEwz-9" value="GET agents/{agentId}/task/next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
